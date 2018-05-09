@@ -9,4 +9,6 @@ Playlist do youtube: [Clique aqui para acessar](https://www.youtube.com/watch?v=
 
 [3: Vector](https://github.com/JailsonSousa/ED2018_1/tree/master/Vector)
 
+[4: Fractais](https://github.com/JailsonSousa/ED2018_1/tree/master/Fractais)
+
 [7: Lista Encateada](https://github.com/JailsonSousa/ED2018_1/tree/master/ListaEncadeada)
