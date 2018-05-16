@@ -3,7 +3,7 @@
 * o que você fez?
   * Fiz a parte do delete, backspace, quebra de linha, espaço, inserir caracters e mover cursor
 * Com quem e como você fez?
-  * Fiz sozinho. pesquise na documentação do cplusplus os metodos para inserir(insert) dados e deletar(erase) e fiz varios testes.
+  * Fiz sozinho. pesquise na documentação do [cplusplus](http://www.cplusplus.com/reference/list/list/) os metodos para inserir([insert](www.cplusplus.com/reference/list/list/insert/)) dados e deletar([erase](http://www.cplusplus.com/reference/list/list/erase/)) e fiz varios testes.
 * O que aprendeu e sabe fazer?
   * Aprendi a utilizar alguns metodos de lista e sobre ponteiros.
 * O que tem dificuldade ainda?
