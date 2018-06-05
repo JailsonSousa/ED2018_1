@@ -11,6 +11,8 @@ Playlist do youtube: [Clique aqui para acessar](https://www.youtube.com/watch?v=
 
 [4: Fractais](https://github.com/JailsonSousa/ED2018_1/tree/master/Fractais)
 
-[7: Lista Encateada](https://github.com/JailsonSousa/ED2018_1/tree/master/ListaEncadeada)
+[5: Labirinto com Pilha](https://github.com/JailsonSousa/ED2018_1/tree/master/Labirinto)
 
-[8: Editor de Texto](https://github.com/JailsonSousa/ED2018_1/tree/master/Editor)
+[6: Lista Encateada](https://github.com/JailsonSousa/ED2018_1/tree/master/ListaEncadeada)
+
+[7: Editor de Texto](https://github.com/JailsonSousa/ED2018_1/tree/master/Editor)
