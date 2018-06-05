@@ -7,6 +7,7 @@
 using namespace std;
 
 struct Ambiente{
+
     list<char> texto;
     list<char>::iterator cursor;
     Ambiente(){
@@ -53,15 +54,15 @@ int main()
                 janela.close();
             if(event.type == sf::Event::KeyPressed){
                 if(event.key.control && (event.key.code == sf::Keyboard::Z)){
-                        cout << "control z" << endl;
+                        // ctrl + z
                 }
                 else if(event.key.control && (event.key.code == sf::Keyboard::R)){
                         cout << "control r" << endl;
                 }
                 else if((event.key.code >= sf::Keyboard::A) && (event.key.code <= sf::Keyboard::Z)){
                     char tecla = (event.key.code - sf::Keyboard::A) + 'a';
-//                    if(event.key.shift)
-//                        tecla += -'a' + 'A';
+                    if(event.key.shift)
+                        tecla += -'a' + 'A';
                     amb.texto.insert(amb.cursor,tecla);
                     //inserir caracteres na tela
                 }
@@ -71,11 +72,11 @@ int main()
                 }
                 else if((event.key.code == sf::Keyboard::Space)){
                     amb.texto.insert(amb.cursor,' ');
-                    // espaco
+                    //espaco
                 }
                 else if(event.key.code == sf::Keyboard::BackSpace){
                     if(amb.cursor != amb.texto.begin())
-                        amb.texto.erase(amb.cursor++,amb.cursor--);
+                      amb.cursor = amb.texto.erase(amb.cursor, amb.cursor--);
                     // deletar voltando
                 }
                 else if(event.key.code == sf::Keyboard::Delete){
