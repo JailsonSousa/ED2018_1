@@ -14,6 +14,4 @@
 * O que ainda falta implementar?
   * Ctrl Z
   * Ctrl R
-  * Shift
-
 
