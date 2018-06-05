@@ -59,46 +59,48 @@ struct Vetor{
 
     void reserve(int capacity){
 
-        if(this->_capacity < capacity)
+        if(this->_capacity > capacity || this->_capacity == capacity)
             return;
 
-        int * newVector = new int[this->_size * 2];
+        int * newData = new int[capacity];
 
         for (int i = 0; i < this->_size; i++) {
-            newVector[i] = this->data[i];
+            newData[i] = this->data[i];
         }
 
         this->_capacity = capacity;
-        this->data = newVector;
+        this->data = newData;
     }
 };
 
-#include <vector>
 int main()
 {
     Vetor vetor(1);
-
+    cout << "Capacidade Inicial: " << vetor.capacity() << endl;
+    cout << "Adicionando novos valores no Vetor de inteiros..." << endl;
     vetor.push_back(1);
     vetor.push_back(2);
     vetor.push_back(3);
     vetor.push_back(4);
+    vetor.push_back(5);
 
+    cout << "Exibindo os valores do vetor de inteiros..." << endl;
     for(auto elemento : vetor)
-        cout << elemento << "\n";
+        cout << elemento << endl;
 
     cout << "Teste AT: \n";
     for (int i = 0; i < vetor.size(); i++) {
-        cout << "O Elemento do índice["<< i << "] é: "<< vetor.at(i) <<"\n";
+        cout << "O Elemento do índice["<< i << "] é: "<< vetor.at(i) << endl;
     }
 
-    cout << "Mudar valor no AT \n";
+    cout << "Mudar valor no AT"<<endl;
     vetor.at(0) = 10;
-    cout << "Novo Valor do Indice[0]: " << vetor.at(0) << "\n";
+    cout << "Novo Valor do Indice[0]: " << vetor.at(0) << endl;
 
-    cout << "Capacidade do Vetor: " << vetor.capacity() << "\n";
-    cout << "Size do Vetor: " << vetor.size() << "\n";
+    cout << "Capacidade do Vetor: " << vetor.capacity() << endl;
+    cout << "Size do Vetor: " << vetor.size() << endl;
 
-    cout << "Teste Reserve \n";
+    cout << "Teste Reserve"<<endl;
     vetor.reserve(30);
     cout << "Nova capacidade: " << vetor.capacity() << endl;
 
