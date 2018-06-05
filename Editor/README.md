@@ -8,7 +8,7 @@
 * O que aprendeu e sabe fazer?
   * Aprendi a utilizar alguns metodos de lista e sobre ponteiros.
 * O que tem dificuldade ainda?
-  * um pouco de dificuldade em ponteiros.
+  * um pouco de dificuldade em ponteiros e interadores
 * Quanto tempo levou pra fazer a atividade
   * umas 2h.
 * O que ainda falta implementar?
