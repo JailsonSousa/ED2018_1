@@ -17,4 +17,6 @@ Playlist do youtube: [Clique aqui para acessar](https://www.youtube.com/watch?v=
 
 [7: Editor de texto](https://github.com/JailsonSousa/ED2018_1/tree/master/Editor)
 
-[8: Algoritmos de ordenação](https://github.com/JailsonSousa/ED2018_1/tree/master/Ordenacao)
+[8: Fila do Banco](https://github.com/JailsonSousa/ED2018_1/tree/master/Banco)
+
+[9: Algoritmos de ordenação](https://github.com/JailsonSousa/ED2018_1/tree/master/Ordenacao)
