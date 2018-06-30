@@ -110,16 +110,6 @@ struct hashLinear{
 
 int main()
 {
-    Elem elem1 = Elem(12, "ok");
-    Elem elem2 = Elem(54, "ok");
-    Elem elem3 = Elem(7, "ok");
-    Elem elem4 = Elem(21, "ok");
-
-    hashLinear vetHash = hashLinear(5);
-
-    if(vetHash.insert(elem1) && vetHash.insert(elem2) && vetHash.insert(elem3)){
-        cout << "ok, adicionado!!" << endl;
-    }
 
     return 0;
 }
