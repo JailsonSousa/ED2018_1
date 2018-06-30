@@ -2,7 +2,8 @@
 ## Repositório das atividades desenvolvidas na disciplina ED 2018.1 
 
 Playlist do youtube: [Clique aqui para acessar](https://www.youtube.com/watch?v=rXF5tlVMc1w&list=PLqwyjBSVOHRz5t39qVeBWOFqZXSFdytnc)
-dica de site para visualizar as estruturas: [VisuAlgo](https://visualgo.net/pt)
+
+Dica de site para visualizar as estruturas: [VisuAlgo](https://visualgo.net/pt)
 
 
 [1: Princesa](https://github.com/JailsonSousa/ED2018_1/tree/master/Princesa)
