@@ -22,3 +22,6 @@ Playlist do youtube: [Clique aqui para acessar](https://www.youtube.com/watch?v=
 [9: Algoritmos de ordenação](https://github.com/JailsonSousa/ED2018_1/tree/master/Ordenacao)
 
 [10: Hash](https://github.com/JailsonSousa/ED2018_1/tree/master/Hash)
+
+
+Dica de site para visualizar as estruturas: [VisuAlgo](https://visualgo.net/pt)
